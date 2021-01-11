@@ -41,6 +41,10 @@ after that we can deploy our model on sagemaker endpoint with just one line of c
 now we have deployed our model on sagemaker so let's create ec2 instance for web-app using flask
 
 for ec2 instance we need minimum 2gb of ram so i used t2.small and ubuntu image 
+don't forget to add a inbound rule for custom tcp port 5000 so that you can access it from your system
+
+<img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/rules.png">
+
 simply launch an ec2 instance and then go in using ssh
 In the ec2 instance install awscli and setup it using your access id and key after that copy the web-app.zip file from s3 
 '''
@@ -52,4 +56,11 @@ and don't forget to change this endpoint name with yours
 
 <img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/endpoin.png">
 
+now you are good to go just run  
+'''
+python3 index.py
+'''
+
+and you'll see something like that
+<img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/final.png">
 
