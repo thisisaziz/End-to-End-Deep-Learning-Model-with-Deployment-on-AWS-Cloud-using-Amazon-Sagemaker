@@ -47,9 +47,9 @@ don't forget to add a inbound rule for custom tcp port 5000 so that you can acce
 
 simply launch an ec2 instance and then go in using ssh
 In the ec2 instance install awscli and setup it using your access id and key after that copy the web-app.zip file from s3 
-'''
+```
 aws s3 cp s3://web-dep-12/web-app.zip .
-'''
+```
 unzip the web-app.zip
 install the libraries from requirements.txt file 
 and don't forget to change this endpoint name with yours
@@ -57,10 +57,9 @@ and don't forget to change this endpoint name with yours
 <img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/endpoin.png">
 
 now you are good to go just run  
-'''
+```
 python3 index.py
-'''
-
+```
 and you'll see something like that
 <img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/final.png">
 
