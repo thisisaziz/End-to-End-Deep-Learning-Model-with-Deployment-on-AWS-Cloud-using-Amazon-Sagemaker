@@ -18,10 +18,13 @@ So Here we'll build the model from scratch and then deploy it with the help of s
 
 then select the configurations as  follow-
 
-<img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/image.png">
+<img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/notebook-2.png">
 
 now open it in jupyter notebook  after that upload your code and dataset there with my model.ipynb and open my model.ipynb
 
 <img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/notebook-1.png">
 
+first 3 cell will create a s3 bucket after that we will copy our dataset and flask-web-app.zip file in that s3 bucket 
+
+<img src="https://github.com/zerocool-11/End-to-end-Deep-Learning-Model-Deployment-on-aws/blob/main/images/image.png">
 
