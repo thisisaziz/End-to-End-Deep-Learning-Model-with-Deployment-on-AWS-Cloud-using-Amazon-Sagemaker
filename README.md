@@ -1,4 +1,4 @@
-# End-to-end-Deep-Learning-Model-Deployment-on-aws
+# End to End Deep Learning Model with Deployment on AWS Cloud using Amazon Sagemaker
 
 So Here we'll build the model from scratch and then deploy it with the help of sagemaker and ec2 
 
